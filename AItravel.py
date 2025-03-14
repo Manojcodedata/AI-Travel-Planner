@@ -28,7 +28,8 @@ output_parser = StrOutputParser()
 chain = chat_template | chat_model | output_parser
 
 # Streamlit App Layout
-st.set_page_config(page_title="AI Travel Planner", page_icon="✈️", layout="centered")
+st.set_page_config(page_title="AI-Powered Travel Assistant: Your Smart Trip Planner!
+", page_icon="✈️", layout="centered")
 st.title("🌍 AI Travel Planner")
 st.markdown("### Find the best travel options for your journey!")
 
