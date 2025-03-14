@@ -29,7 +29,7 @@ chain = chat_template | chat_model | output_parser
 
 # Streamlit App Layout
 st.set_page_config(page_title="AI Powered Travel Assistant", page_icon="✈️", layout="centered")
-st.title("🌍 AI Travel Planner")
+st.title("🌍 AI-Powered Travel Assistant: Your Smart Trip Planner!")
 st.markdown("### Find the best travel options for your journey!")
 
 # Input Form
