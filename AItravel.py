@@ -5,8 +5,7 @@ from langchain_core.output_parsers import StrOutputParser
 import os
 
 # Read API Key
-with open('apikey.txt', 'r') as file:
-    API_KEY = file.read().strip()
+API_KEY = st.secrets['api']
 
 # Initialize Google Generative AI Model
 chat_model = GoogleGenerativeAI(api_key=API_KEY, model="models/gemini-2.0-pro-exp")
